@@ -1,0 +1,503 @@
+Name of Killer: Jeremy Bowers
+
+history:
+125  bundle exec rails db:import[latest.dump]
+  126  rails db:import[latest.dump]
+  127  bundle exec rake db:import[latest.dump]
+  128  rails db:structure:dump
+  129  rails db:schema:dump
+  130  rails db:migrate:status
+  131  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U myuser -d mydb latest.dump
+  132  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U jonathanlau -d mydb latest.dump
+  133  postgres -V
+  134  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U jonathanlau -d postgres10.5 latest.dump
+  135  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U jonathanlau -d marmande_development latest.dump;
+  136  rails db:migrate
+  137  openssl genrsa -out privatekey.pem 1024
+  138  openssl req -newkey rsa:1024 -x509 -key privatekey.pem -out publickey.cer -days 365
+  139  openssl req -newkey rsa:1024 -x509 -key privatekey.pem -out publickey.cer -days 365
+  140  openssl pkcs12 -export -out public_privatekey.pfx -inkey privatekey.pem -in publickey.cer
+  141  git status
+  142  git status
+  143  git status
+  144  git add app/adapters/adapter.rb
+  145  git add app/controllers/orders_controller.rb
+  146  git status
+  147  git clean -f
+  148  git status
+  149  git commit -m "refactor destroy in orders controller and added destroy_sales_invoice in adapter.rb"
+  150  git push
+  151  git branch
+  152  git status
+  153  git add .
+  154  git commit -m "refactor update in inventory controller and added update_bill_invoice_for_inventory in adapter.rb
+  155  echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+  156  source ~/.bash_profile
+  157  rbenv global 2.5.1
+  158  ruby -v
+  159  ruby versions
+  160  rbenv versions
+  161  cd dev/marmande
+  162  bundle install
+  163  rbenv install 2.4.1
+  164  rbenv versions
+  165  gem install bundler
+  166  ls
+  167  bundle install
+  168  rails s
+  169  rails s
+  170  rails s
+  171  rails s
+  172  cd dev/marmande_update
+  173  ls
+  174  cd marmande
+  175  pg_restore --verbose --clean --no-acl --no-owner -h localhost -U jonathanlau -d marmande_development latest.dump
+  176  rails db:migrate
+  177  rails c
+  178  'rails c
+  179  exit
+  180  q
+  181  cd dev/marmande
+  182  ls
+  183  git status
+  184  git commit -m "refactor update in inventory controller and added update_bill_invoice_for_inventory in adapter.rb"
+  185  git push
+  186  git status
+  187  git status
+  188  git add .
+  189  git commit -m "refactor destroy for inventory controller and added destroy_bill_invoice to adapter.rb"
+  190  git push
+  191  git status
+  192  git add .
+  193  git commit -m "corrected destroy_bill_invoice in adapter.rb"
+  194  git push
+  195  mailcatcher
+  196  gem install mailcatcher
+  197  mailcatcher
+  198  rails c
+  199  'rails c'
+  200  rails c
+  201  rails generate migration AddAccountCodeToSuppliers account_code:string
+  202  rails db:migrate
+  203  rails console
+  204  git status
+  205  git add .
+  206  git commit -m "create a migration account_code to supplier"
+  207  git push
+  208  rails c
+  209  git status
+  210  cd ..
+  211  mkdir marmande_update
+  212  cd marmande_update
+  213  git clone --branch enhance/labeling-contacts-as-discarded https://github.com/sherwyngoh/marmande.git
+  214  ls
+  215  cd marmande
+  216  bundle install
+  217  rails s
+  218  rails s
+  219  rails s
+  220  cd Dev/marmande_update/marmande
+  221  ls
+  222  cd ~
+  223  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  224  brew doctor
+  225  brew install git
+  226  ls
+  227  sublime test.rb
+  228  touch ~/.profile
+  229  git --v
+  230  git -v
+  231  git -V
+  232  git version
+  233  homebrew
+  234  homebrews version
+  235  echo 'alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"' >> ~/.profile
+  236  sublime .
+  237  ls -la
+  238  touch ~/.profile
+  239  ls -la
+  240  git config --global user.name "JonathanL1211"
+  241  git config --global user.email "Jonathanknight1211@gmail.com"
+  242  git config --global push.default simple
+  243  git config --global credential.helper osxkeychain
+  244  git credential-osxkeychain
+  245  sublime .
+  246  touch ~/.profile
+  247  sublime .
+  248  sublime test.rb
+  249  sublime .
+  250  sublime .
+  251  sublime ,
+  252   rbenv version
+  253  sublime .
+  254  sublime .
+  255  sublime .
+  256  sublime ~/Documents
+  257  sublime .
+  258  sublime .
+  259  ls /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
+  260  ls /Applications/Sublime Text.app
+  261  sublime .
+  262  ls /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+  263  git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w"
+  264  git version
+  265  ruby version
+  266  ruby -V
+  267  ruby --v
+  268  ruby version -v
+  269  rbenv
+  270  rbenv version
+  271  sublime test.rb
+  272  ls
+  273  cd wdi-fundamentals-memorygame
+  274  ls
+  275  cd memory_game
+  276  ls
+  277  sublime index.html
+  278  sublime .
+  279  git clone https://github.com/JonathanL1211/wdi-fundamentals-memorygame.git
+  280  cd ~
+  281  ls
+  282  cd fundamentals
+  283  ls
+  284  cd wdi-fundamentals-memorygame
+  285  ls
+  286  cd memory_game
+  287  ls
+  288  sublime
+  289  sublime
+  290  git status
+  291  cd ~
+  292  mkdir code
+  293  cd code
+  294  ls
+  295  ls -la
+  296  mkdir git-intro
+  297  cd git-intro
+  298  pwd
+  299  git status
+  300  git init
+  301  git status
+  302  sublime index.html
+  303  git add index.html
+  304  git status
+  305  git commit
+  306  git log
+  307  git diff
+  308  git status
+  309  git commit
+  310  git add index.html
+  311  git commit
+  312  git status
+  313  git add index.html
+  314  git commit
+  315  git log
+  316  sublime test.html
+  317  git status
+  318  git diff
+  319  git add test.html
+  320  git commit
+  321  git log
+  322  git log
+  323  git add index.html
+  324  git commit
+  325  git log
+  326  git checkout
+  327  git log
+  328  git status
+  329  git checkout
+  330  git status
+  331  git checkout test.html
+  332  git status
+  333  git remote add origin https://github.com/JonathanL1211/git-demooo.git
+  334  git push
+  335  git push -u
+  336  git push -u origin master
+  337  git push -u origin master
+  338  git add index.html
+  339  git status
+  340  git commit
+  341  git push
+  342  cd ~
+  343  cd
+  344  ls
+  345  cd code
+  346  mkdir js-demo
+  347  cd js-demo
+  348  touch index.html
+  349  touch script.js
+  350  sublime index.html
+  351  cd ~
+  352  ls
+  353  cd fundamentals
+  354  ls
+  355  cd wdi-fundamentals-memorygame
+  356  ls
+  357  cd memory_game
+  358  ls
+  359  sublime index.html
+  360  cd ~
+  361  cd ~/code
+  362  ls
+  363  cd js-demo
+  364  ls
+  365  sublime index.html
+  366  touch conditional_practice.js
+  367  sublime conditional_practice.js
+  368  cd ~
+  369  git clone https://github.com/JonathanL1211/temperature_converter.git
+  370  git status
+  371  ls
+  372  cd ~/temperature_converter
+  373  cd code
+  374  cd temperature_converter
+  375  ls
+  376  ls - la
+  377  ls -la
+  378  git status
+  379  touch index.html
+  380  touch script.js
+  381  sublime index.html
+  382  sublime script.js
+  383  git status
+  384  git status
+  385  git add index.html
+  386  git status
+  387  git commit
+  388  git status
+  389  git add script.js
+  390  git commit
+  391  git status
+  392  git push
+  393  ls
+  394  ls -la
+  395  man <ls>
+  396  <ls> --help
+  397  cd ~
+  398  mkdir my-favorite-things
+  399  cd my-favorite-things
+  400  mkdir books
+  401  cd books
+  402  mkdir JK-Rowling
+  403  cd JK-Rowling
+  404  pwd
+  405  touch fantastic beast
+  406  touch fantastic_beast
+  407  touch fantastic_beast.html
+  408  touch philosophical_stone.html
+  409  sublime fantastic_beast.html
+  410  touch philosophical_stone.html
+  411  sublime philosophical_stone.html
+  412  cd ~/my-favorite-things/
+  413  ls
+  414  mkdir movies
+  415  cd movies
+  416  mkdir Tom_cruise
+  417  cd Tom_cruise
+  418  ls
+  419  mkdir mission-impossible
+  420  cd mission-impossible
+  421  pwd
+  422  touch ethan-hunt.text
+  423  cd ..
+  424  touch ethan-hunt.text
+  425  mv ethan-hunt.text /mission-impossible
+  426  mv ethan-hunt.text mission-impossible
+  427  ls
+  428  cd mission-impossible
+  429  ls
+  430  sublime ethan-hunt.text
+  431  cd ~/my-favorite-things
+  432  mkdir musics
+  433  cd musics
+  434  mkdir disco
+  435  cd disco
+  436  touch ymca.txt
+  437  cd ..
+  438  ls
+  439  rm -r disco
+  440  ls
+  441  mkdir creed
+  442  ls
+  443  rm -r creed
+  444  ls
+  445  mkdir one-direction the-strokes rihanna
+  446  ls
+  447  cd one-direction
+  448  touch what-makes-you-beautiful.txt
+  449  cp what-makes-you-beautiful.txt the-strokes
+  450  cp what-makes-you-beautiful.txt rihanna
+  451  cd ..
+  452  ls
+  453  cd rihanna
+  454  ls
+  455  cd ../one-direction
+  456  ls
+  457  cp rihanna what-makes-you-beautiful.txt
+  458  cd ..
+  459  cp rihanna what-makes-you-beautiful.txt
+  460  cp what-makes-you-beautiful.txt rihanna
+  461  cd one-direction
+  462  cp what-makes-you-beautiful.txt rihanna
+  463  cd ..
+  464  cd one-direction
+  465  cp what-makes-you-beautiful.txt rihanna
+  466  cp what-makes-you-beautiful.txt ..rihanna
+  467  cd ..
+  468  cd one-direction/what-makes-you-beautiful.txt rihanna
+  469  cp one-direction/what-makes-you-beautiful.txt rihanna
+  470  cp one-direction/what-makes-you-beautiful.txt the-strokes
+  471  cd rihanna
+  472  mv what-makes-you-beautiful.txt diamonds.txt
+  473  cd ..
+  474  cd the-strokes
+  475  mv what-makes-you-beautiful.txt someday.txt
+  476  cd ..
+  477  cd ..
+  478  mkdir media
+  479  mv books media
+  480  mv musics media
+  481  mv movies media
+  482  cp media 2015-media
+  483  ls
+  484  cp 2015-media media
+  485  cp -r media 2015-media
+  486  cd 2015-media
+  487  ls
+  488  ls
+  489  mv books 2015-books
+  490  mv movies 2015-movies
+  491  mv musics 2015-musics
+  492  rm -r /JK-Rowling
+  493  cd 2015-books
+  494  rm -r /JK-Rowling
+  495  ls
+  496  rm -r JK-Rowling
+  497  ls
+  498  cd ../2015-movies
+  499  ls
+  500  rm -r Tom_cruise
+  501  ls
+  502  cd ../2015-musics
+  503  ls
+  504  rm -r one-direction rihanna the-strokes
+  505  ls
+  506  touch top-ten-songs.html
+  507  ls
+  508  cd ../2015-movies
+  509  touch top-ten-movies.html
+  510  cd ../2015-books
+  511  touch top-ten-books.html
+  512  cd ~
+  513  mkdir js-loops
+  514  touch index.html
+  515  cd js-loops
+  516  touch index.html
+  517  touch script.js
+  518  cd ~
+  519  cd Desktop
+  520  ls
+  521  cd Gitbook 2018 WDI
+  522  ls
+  523  cd Gitbook-2018-WDI
+  524  mkdir JS-intro
+  525  cd ~
+  526  ls
+  527  cd js-loops
+  528  ls
+  529  sublime index.html
+  530  sublime script.js
+  531  cd ~
+  532  cd code
+  533  git clone https://github.com/JonathanL1211/google-shopping-conditionals-loops.git
+  534  ls
+  535  cd google-shopping-conditionals-loops
+  536  git status
+  537  ls
+  538  touch script.js index.html
+  539  sublime index.html
+  540  sublime script.js
+  541  git status
+  542  git add index.html
+  543  git commit
+  544  git status
+  545  git add script.js
+  546  git commit
+  547  git status
+  548  git push
+  549  sublime script.js
+  550  sublime index.html
+  551  sublime products.js
+  552  cd ..
+  553  ls
+  554  git clone https://github.com/JonathanL1211/command-line-murder-mystery.git
+  555  ls
+  556  cd command-line-murder-mystery
+  557  ls -la
+  558  cat instructions
+  559  ls -la
+  560  cd mystery
+  561  ls -la
+  562  cat crimescene
+  563  cat crimescene | grep CLUE
+  564  cat crimescene
+  565  cat people
+  566  ls
+  567  ls
+  568  cd ..
+  569  ls
+  570  cat hint1
+  571  head -n 20 people
+  572  cd mystery
+  573  head -n 20 people
+  574  cd ..
+  575  ls
+  576  cat hint2
+  577  cat hint3
+  578  cd mystery
+  579  head -n 20 vehicles
+  580  cd ..
+  581  cat hint4
+  582  cd mystery
+  583  grep "Annabel" people
+  584  cat hint5
+  585  cd ..
+  586  cat hint5
+  587  cd mystery
+  588  cat interview
+  589  ls
+  590  cat interviews
+  591  cd interviews
+  592  ls
+  593  cd ../..
+  594  cat hint5
+  595  cd mystery
+  596  cd interviews
+  597  head -n 40 Hart Place | tail -n 1
+  598  head -n 40 streets/Hart Place | tail -n 1
+  599  head -n 40 streets/Hart_Place | tail -n 1
+  600  cd ../..
+  601  cat hint6
+  602  ls
+  603  cd mystery
+  604  ls
+  605  cd streets
+  606  ls
+  607  head -n 40 Hart_Place | tail -n 1
+  608  head -n 179 Buckingham_Place | tail -n 1
+  609  ../../..
+  610  ../..
+  611  cd ../../..
+  612  ls
+  613  cd command-line-murder-mystery
+  614  cat hint6
+  615  cat hint7
+  616  cat hint8
+  617  cd ~
+  618  cd code
+  619  ls
+  620  cd command-line-murder-mystery
+  621  ls
+  622  touch solution.txt
+  623  ls
+  624  history
